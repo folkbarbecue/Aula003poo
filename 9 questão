@@ -1,0 +1,20 @@
+package aula002;
+import java.util.Scanner;
+public class Main {
+
+	public static void main(String[] args) {
+        Scanner tec = new Scanner(System.in);
+ int sb;
+
+ System.out.println("Insira o seu salário base");
+ sb = tec.nextInt();
+ double gra = sb*0.08;
+ double im = sb*0.11;
+ double tot = (gra+sb)-im;
+System.out.println("O valor total com a gratificação e imposto é : "+tot);
+
+
+
+     }
+
+}
