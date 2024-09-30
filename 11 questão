@@ -1,0 +1,25 @@
+package aula002;
+import java.util.Scanner;
+public class Main {
+
+	public static void main(String[] args) {
+        Scanner tec = new Scanner(System.in);
+ String n;
+ int v;
+ double p;
+
+System.out.println("Qual seu nome?");
+n = tec.nextLine();
+System.out.println("Qual o valor do seu salário");
+v = tec.nextInt();
+System.out.println("Qual o valor da prestação");
+p = tec.nextDouble();
+double pr = v*0.20;
+if(p>pr) {
+	System.out.println("O emprestimo não pode ser concluido");
+} else {
+	System.out.println("O emprestimo pode ser concluido "+n);
+}
+     }
+
+}
