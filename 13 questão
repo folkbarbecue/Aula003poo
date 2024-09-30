@@ -1,0 +1,25 @@
+package aula002;
+import java.util.Scanner;
+public class Main {
+
+	public static void main(String[] args) {
+        Scanner tec = new Scanner(System.in);
+int ht;
+double sb;
+
+System.out.println("Quantas horas você trabalhou por semana?");
+ht = tec.nextInt();
+System.out.println("Quanto você ganha por hora trabalhada?");
+sb = tec.nextDouble();
+if(ht>40) {
+	int hp = ht-40;
+	double sm = (sb*0.5)+sb;
+			double st = sm * hp;
+			double tot = st *4;
+}
+double tot = (sb+ht)*16;
+System.out.println("O seu salario mensal é de: "+ tot);
+
+     }
+
+}
