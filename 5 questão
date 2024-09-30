@@ -1,0 +1,14 @@
+package aula002;
+import java.util.Scanner;
+public class Main {
+
+	public static void main(String[] args) {
+        Scanner tec = new Scanner(System.in);
+ double money;
+ System.out.println("Insira o seu dinheiro por hora trabalhada");
+ money = tec.nextDouble();
+double total = 180 * money;
+System.out.println("Seu salário mensal será de: "+total);
+     }
+
+}
