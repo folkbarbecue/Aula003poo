@@ -1,0 +1,21 @@
+package aula002;
+import java.util.Scanner;
+public class Main {
+
+	public static void main(String[] args) {
+        Scanner tec = new Scanner(System.in);
+ String n;
+ int v;
+
+System.out.println("Qual o seu nome");
+n = tec.nextLine();
+System.out.println("Qual o seu ano de nascimento");
+v = tec.nextInt();
+int to = 2024-v;
+if(to>=18) {
+	System.out.println(n+", você pode entrar");
+}
+
+     }
+
+}
