@@ -1,0 +1,15 @@
+package aula002;
+import java.util.Scanner;
+public class Main {
+
+	public static void main(String[] args) {
+        Scanner tec = new Scanner(System.in);
+ double metro;
+ System.out.println("Insira uma medida em metros");
+ metro = tec.nextDouble();
+ double conver1 = metro*10;
+		 double conver2 = conver1*10;
+		 System.out.println("A medida em centimetros é de: "+conver2);
+     }
+
+}
