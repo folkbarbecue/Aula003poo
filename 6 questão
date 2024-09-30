@@ -1,0 +1,18 @@
+package aula002;
+import java.util.Scanner;
+public class Main {
+
+	public static void main(String[] args) {
+        Scanner tec = new Scanner(System.in);
+ double v1;
+ System.out.println("Insira o valor x");
+ v1 = tec.nextDouble();
+ if(v1>=50&&v1<=80 ) {
+	 System.out.println("O Valor está dentro do orçamento");
+ }else {
+	 System.out.println("Não está dentro do orçamento");
+ }
+
+     }
+
+}
