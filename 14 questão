@@ -1,0 +1,23 @@
+package aula002;
+import java.util.Scanner;
+public class Main {
+
+	public static void main(String[] args) {
+        Scanner tec = new Scanner(System.in);
+int sf;
+int ve;
+double tot = 0;
+System.out.println("Insira seu salário fixo");
+sf = tec.nextInt();
+System.out.println("Insira a o valor em vendas efetuadas");
+ve = tec.nextInt();
+if(ve>1500) {
+ tot = (sf*0.05)+sf;
+}
+if(ve<1500) {
+ tot = (sf*0.03)+sf;
+}
+System.out.println("seu salário total é de " + tot);
+     }
+
+}
