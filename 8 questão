@@ -1,0 +1,30 @@
+package aula002;
+import java.util.Scanner;
+public class Main {
+
+	public static void main(String[] args) {
+        Scanner tec = new Scanner(System.in);
+ int v1;
+ int v2;
+ System.out.println("Insira o valor valor 1");
+ v1 = tec.nextInt();
+ System.out.println("Insira o valor valor 2");
+ v2 = tec.nextInt();
+ if(v1>0) {
+	 System.out.println("O valor 1 é positivo");
+ }
+ if(v2>0) {
+	 System.out.println("O valor 2 é positivo");
+ }
+ if(v1<0) {
+	 System.out.println("O valor 1 é negativo");
+ }
+ if(v2<0) {
+	 System.out.println("O valor 2 é negativo");
+ }
+
+
+
+     }
+
+}
