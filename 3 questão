@@ -1,0 +1,23 @@
+package aula002;
+import java.util.Scanner;
+public class Main {
+
+	public static void main(String[] args) {
+        Scanner tec = new Scanner(System.in);
+        double a1;
+        double a2;
+        double a3;
+        double a4;
+        System.out.println("Insira a nota 1");
+        a1 = tec.nextInt();
+        System.out.println("Insira a nota 2");
+        a2 = tec.nextInt();
+        System.out.println("Insira a nota 3");
+        a3 = tec.nextInt();
+        System.out.println("Insira a nota 4");
+        a4 = tec.nextInt();
+        double media = (a1+a2+a3+a4)/4;
+System.out.println("A media foi de:"+media);
+     }
+
+}
