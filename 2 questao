@@ -1,0 +1,21 @@
+package aula002;
+import java.util.Scanner;
+public class Main {
+
+	public static void main(String[] args) {
+        Scanner tec = new Scanner(System.in);
+        int ano1;
+        int ano2;
+        System.out.println("Insira o ano atual");
+        ano1 = tec.nextInt();
+        System.out.println("Insira o ano de nascimento");
+        ano2 = tec.nextInt();
+        int id = ano1 - ano2;
+        if(id>=16) {
+        	System.out.println("Você pode votar esse ano");
+        } else {
+        	System.out.println("Você não pode votar esse ano");
+        }
+     }
+
+}
